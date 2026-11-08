@@ -2,7 +2,10 @@
 
 Rebuild any image out of the characters of a font. Give it a photo and a font, and it redraws the photo line by line using whichever letter, symbol or box-drawing character looks most like each patch of the image.
 
-By **Russ Gatrell**. I wrote the first version years ago and have rebuilt it since.
+By **Russ Gatrell**. I wrote the first version in 2019 and have rebuilt it since.
+
+<p align="center"><img src="example.png" width="480" alt="A portrait of Russ Gatrell drawn entirely from font characters"></p>
+<p align="center"><em>A self-portrait made with an early version (2019): every mark is a character from a font.</em></p>
 
 ## How it works
 
