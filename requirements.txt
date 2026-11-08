@@ -1,0 +1,4 @@
+pillow>=10.1
+numpy>=1.26
+fonttools>=4.40
+gradio>=6.0
