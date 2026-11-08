@@ -7,6 +7,16 @@ By **Russ Gatrell**. I wrote the first version in 2019 and have rebuilt it since
 <p align="center"><img src="example.png" width="480" alt="A portrait of Russ Gatrell drawn entirely from font characters"></p>
 <p align="center"><em>A self-portrait made with an early version (2019): every mark is a character from a font.</em></p>
 
+## A trick of scale
+
+<a href="mona_lisa_closeup.png"><img src="mona_lisa.png" width="90" align="left" alt="The Mona Lisa drawn in Courier characters by img-to-txt, by Russ Gatrell"></a>
+
+Shown this small, it's obviously the Mona Lisa. **Click it to see it up close,** where it falls apart into a wall of black blocks and stray letters you'd never recognize.
+
+Made in 2019 with Courier at 20 pt, with the source image scaled to 10%. At that size each character has to stand in for a big patch of the painting, so the picture only comes back when your eye blends the characters together again.
+
+<br clear="left">
+
 ## How it works
 
 1. Every character the font supports is drawn to a small bitmap (there can be tens of thousands). The set is cached, so the next run with that font and size starts right away.
